@@ -28,15 +28,16 @@
   </head>
   <body>
       <div id="backgroundimage" class="container-fluid d-flex" style="border-bottom: 8px solid #222;">
-          <div id="netfliximage" class="container-sm">
+          <div id="netfliximage" class="container">
             <img src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png" alt="netflix" width="170px">
           </div>
           <div id="imagetext" class="container">
                 <span>Unlimited Movies,TV </span><br>
                 <span style="margin-left: 70px;">shows and more.</span><br>
-                <span style="font-size :23px;margin-left: 70px;">Watch anywhere. Cancel anytime.</span>
+                <span style="font-size :23px;margin-left: 70px;">Watch anywhere. Cancel anytime.</span><br><br>
                 <p>Ready to watch? Enter your email to create or restart your membership.</p>
           </div>
+          
           <form id="search" class="d-flex">
             <input class="form-control" style="width: 500px;height: 60px;" type="search" placeholder="Email address" aria-label="Search">
             <button class="btn btn-outline-danger text-light" type="submit" style="background-color: red;width: 14rem;height: 60px;font-size: 24px;">Get Started></button>
@@ -44,16 +45,15 @@
 
           <div class="container float-end my-4">
 
-           
-            <button type="button" class="btn btn-outline-light dropdown-toggle float-end mx-3" data-bs-toggle="dropdown" aria-expanded="false">
+            <button type="button" class="btn btn-danger float-end" style="background-color:red;">Sign In</button>
+
+            <button style="width: 7rem;" type="button" class="btn btn-outline-light dropdown-toggle float-end mx-5" data-bs-toggle="dropdown" aria-expanded="false">
               <i class="fa-solid fa-globe"></i>English
             </button>
             <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">English</a></li>
             <li><a class="dropdown-item" href="#">Hindi</a></li>
             </ul>
-
-            <button type="button" class="btn btn-danger float-end" style="background-color:red;">Sign In</button>
           
           </div>
       </div>
@@ -64,18 +64,13 @@
         <div class="container">
           <div class="row">
             <div class="col my-5 float-start">
-              <span style="color: white;font-size: 50px;font-weight: bold;my-0">Enjoy on your TV.</span><br><br>
-              <span style="color: white;font-size: 25px;">Watch on smart TVs, PlayStation, Xbox,</span><br>
+              <span style="color: white;font-size: 50px;font-weight: bold;">Enjoy on your TV.</span><br><br>
+              <span style="color:white;font-size: 25px;">Watch on smart TVs, PlayStation, Xbox,</span><br>
               <span style="color: white;font-size: 25px;">Chromecast, Apple TV, Blu-ray players and</span><br>
               <span style="color: white;font-size: 25px;">more.</span><br>
             </div>
             <div class="col float-end">
-
-            <div class="container">
-              <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" class="img-fluid" data-uia="our-story-card-img" width="550px">
-            
-            </div>
-              
+              <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" class="img-fluid" data-uia="our-story-card-img">
             </div>
           </div>
         </div>
@@ -85,8 +80,18 @@
 
       <div class="container-fluid bg-black" style="border-bottom: 8px solid #222;">
         <div class="row">
-          <div class="col-sm ">
-          <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" class="img-fluid" alt="stranger" width="450px">
+          <div class="col my-5">
+          <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"  alt="stranger" width="470px">
+          <div class="container mx-5" style="border: 2px solid #404040;display: inline-flex;width: 27rem;border-radius: 6%;">
+            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png" class="img-fluid" alt="image" width="50px">
+          <div class="container my-3">
+            <span style="color: white;font-size: 15px;font-weight: bold;">Stranger Things</span><br>
+            <span style="color: #005feb;font-size: 13px;">Downloading...</span>
+          </div>
+          <div class="container float-end my-3">
+            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif" alt="download" width="50px">
+          </div>
+          </div>
           </div>
           <div class="col-sm my-5">
            <span style="font-size: 50px;color: white;font-weight: bold;">Download your shows to watch offline.</span><br>
@@ -132,17 +137,79 @@
           <div class="col" style="color: white;font-size: 45px;font-weight: bold;">Frequently Asked Questions</div>
         </div>
       
-        <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+      <!-- acordion starts  -->
+
         <div class="row my-5">
-          <div class="col">
-            <ul class="list-group">
-              <li class="list-group-item" style="background-color: #303030;color: white;">What is Netflix?</li>
-              <li class="list-group-item" style="background-color: #303030;color: white;">How Much Does Netflix Cost?</li>
-              <li class="list-group-item" style="background-color: #303030;color: white;">Where can i watch?</li>
-              <li class="list-group-item" style="background-color: #303030;color: white;">How do i cancel?</li>
-              <li class="list-group-item" style="background-color: #303030;color: white;">What can i watch on Netflix?</li>
-              <li class="list-group-item" style="background-color: #303030;color: white;">Is Netflix good for kids?</li>
-            </ul>
+          <div class="col mx-5">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item" style="background-color: #303030;color: white;">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button style="background-color: #303030;color: white;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    What is Netflix?
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.
+
+                    You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!</div>
+                </div>
+              </div>
+              <div class="accordion-item" style="background-color: #303030;color: white;">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button style="background-color: #303030;color: white;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    How much does Netflix cost?
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹ 149 to ₹ 649 a month. No extra costs, no contracts.</div>
+                </div>
+              </div>
+              <div class="accordion-item" style="background-color: #303030;color: white;">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button style="background-color: #303030;color: white;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Where can i watch?
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+
+                    You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.</div>
+                </div>
+              </div>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item" style="background-color: #303030;color: white;">
+                  <h2 class="accordion-header" id="flush-headingFourth">
+                    <button style="background-color: #303030;color: white;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFourth" aria-expanded="false" aria-controls="flush-collapseFourth">
+                     How do i cancel?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseFourth" class="accordion-collapse collapse" aria-labelledby="flush-headingFourth" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</div>
+                  </div>
+                </div>
+                <div class="accordion-item" style="background-color: #303030;color: white;">
+                  <h2 class="accordion-header" id="flush-headingFifth">
+                    <button style="background-color: #303030;color: white;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFifth" aria-expanded="false" aria-controls="flush-collapseFifth">
+                     What can i watch on Netflix?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseFifth" class="accordion-collapse collapse" aria-labelledby="flush-headingFifth" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</div>
+                  </div>
+                </div>
+                <div class="accordion-item" style="background-color: #303030;color: white;">
+                  <h2 class="accordion-header" id="flush-headingSixth">
+                    <button style="background-color: #303030;color: white;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSixth" aria-expanded="false" aria-controls="flush-collapseSixth">
+                      Is Netflix good for kids?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseSixth" class="accordion-collapse collapse" aria-labelledby="flush-headingSixth" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space.
+
+                      Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.</div>
+                  </div>
+                </div>
+            </div>
           </div>
           <div class="container text-center">
           <span style="color:white;font-size: 20px;">Ready to watch? Enter your email to create or restart your membership.</span>
@@ -158,71 +225,48 @@
       <!-- footer starts  -->
 
       <!-- Footer -->
-<footer class="bg-black text-center text-white" style="border-top: 8px solid #222;">
+<footer class="bg-black text-center text-white my-5" style="border-top: 8px solid #222;">
   <!-- Grid container -->
-  <div class="container p-4">
+  <div class="container-fluid p-4">
     <!-- Section: Social media -->
     <section class="mb-4">
       <!-- Facebook -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/profile.php?id=100004977828705" role="button"
         ><i class="fab fa-facebook-f"></i
       ></a>
 
       <!-- Twitter -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/ItsAnkit5ingh" role="button"
         ><i class="fab fa-twitter"></i
       ></a>
 
       <!-- Google -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-google"></i
-      ></a>
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/itsankitsingh" role="button"
+        ><i class="fa-brands fa-youtube"></i>
+      </a>
 
       <!-- Instagram -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      <a class="btn btn-outline-light btn-floating m-1" href="https://wwww.instagram.com/itssankitsingh" role="button"
         ><i class="fab fa-instagram"></i
       ></a>
 
       <!-- Linkedin -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/ankit-singh-422980227/" role="button"
         ><i class="fab fa-linkedin-in"></i
       ></a>
 
       <!-- Github -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/ankitsingh711" role="button"
         ><i class="fab fa-github"></i
       ></a>
     </section>
     <!-- Section: Social media -->
 
-    <!-- Section: Form -->
-    <section class="">
-      <form action="">
-        <!--Grid row-->
-        <div class="row d-flex justify-content-center">
-          <!--Grid column-->
-          <div class="col-auto">
-            <p class="pt-2">
-              <strong>Sign up to start journey</strong>
-            </p>
-          </div>
           <!--Grid column-->
 
           <!--Grid column-->
           <div class="col-md-5 col-12">
             <!-- Email input -->
-            <div class="form-outline form-white mb-4">
-              <input type="email" id="form5Example21" class="form-control"placeholder="Email adress">
-            </div>
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-auto">
-            <!-- Submit button -->
-            <button type="submit" class="btn btn-outline-light mb-4">
-              Get Started
-            </button>
           </div>
           <!--Grid column-->
         </div>
@@ -232,32 +276,29 @@
     <!-- Section: Form -->
 
     <!-- Section: Text -->
+    
+  <div class="container-fluid">
     <section class="mb-4">
-      <p>
+      <p style="color: #757575;">
         Questions? Call 000-800-040-1843
       </p>
     </section>
-    <!-- Section: Text -->
-
-    <!-- Section: Links -->
-    <section class="">
       <!--Grid row-->
       <div class="row">
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
           <ul class="list-unstyled mb-0">
             <li>
-              <a href="#!" class="text-white">Link 1</a>
+              <a style="text-decoration-line: none;" href="#!" class="text-white"><span style="color:#757575;">FAQ</span></a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 2</a>
+              <a style="text-decoration-line: none;" href="#!" class="text-white"><span style="color:#757575;">Investor Relations</span></a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 3</a>
+              <a style="text-decoration-line: none;" href="#!" class="text-white"><span style="color:#757575;">Privacy</span></a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 4</a>
+              <a style="text-decoration-line: none;" href="#!" class="text-white"><span style="color:#757575;">Speed Test</span></a>
             </li>
           </ul>
         </div>
@@ -265,20 +306,19 @@
 
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
 
           <ul class="list-unstyled mb-0">
             <li>
-              <a href="#!" class="text-white">Link 1</a>
+              <a style="text-decoration-line: none;" href="#!" class="text-white"><span style="color:#757575;">Help Center</span></a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 2</a>
+              <a style="text-decoration-line: none;" href="#!" class="text-white"><span style="color:#757575;">Jobs</span></a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 3</a>
+              <a style="text-decoration-line: none;" href="#!" class="text-white"><span style="color:#757575;">Cookie Preferences</span></a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 4</a>
+              <a style="text-decoration-line: none;" href="#!" class="text-white"><span style="color:#757575;">Legal Notices</span></a>
             </li>
           </ul>
         </div>
@@ -286,20 +326,19 @@
 
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
 
           <ul class="list-unstyled mb-0">
             <li>
-              <a href="#!" class="text-white">Link 1</a>
+              <a style="text-decoration-line: none;" href="#!" class="text-white"><span style="color:#757575;">Account</span></a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 2</a>
+              <a style="text-decoration-line: none;" href="#!" class="text-white"><span style="color:#757575;">Ways to watch</span></a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 3</a>
+              <a style="text-decoration-line: none;" href="#!" class="text-white"><span style="color:#757575;">Corporate Information</span></a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 4</a>
+              <a style="text-decoration-line: none;" href="#!" class="text-white"><span style="color:#757575;">Only on Netflix</span></a>
             </li>
           </ul>
         </div>
@@ -307,22 +346,28 @@
 
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
 
           <ul class="list-unstyled mb-0">
             <li>
-              <a href="#!" class="text-white">Link 1</a>
+              <a style="text-decoration-line: none;color: #303030;" href="#!" class="text-white"><span style="color:#757575;"> Media Center </span></a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 2</a>
+              <a style="text-decoration-line: none;" href="#!" class="text-white"><span style="color:#757575;">Temrs of Use</span></a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
+              <a style="text-decoration-line: none;color: #303030;" href="#!" class="text-white"><span style="color:#757575;">Contact Us</span></a>
             </li>
           </ul>
+        </div>
+        <div class="dropdown my-5">
+          <button class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-solid fa-globe"></i> English
+          </button>
+          <ul class="dropdown-menu float-start" aria-labelledby="dropdownMenu2">
+            <li><button class="dropdown-item" type="button">English</button></li>
+            <li><button class="dropdown-item" type="button">Hindi</button></li>
+          </ul> <br><br>
+          <span style="color: #757575;">Netflix India</span>
         </div>
         <!--Grid column-->
       </div>
@@ -330,15 +375,11 @@
     </section>
     <!-- Section: Links -->
   </div>
-  <!-- Grid container -->
-
-  <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2022 Copyright Ankit Developer:
-    <a class="text-white" href="https://netflix.com/">Netflix.com</a>
-  </div>
+</div>
   <!-- Copyright -->
 </footer>
+
+</div>
 <!-- Footer -->
 
       
