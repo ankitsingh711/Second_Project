@@ -5,6 +5,11 @@ body{
     overflow-x: hidden;
 }
 
+.darkmode{
+    background-color: white;
+    color: black;
+}
+
 #backgroundimage{
     background-image: url(https://www.linkpicture.com/q/image_327.jpg);
     width: 100%;
