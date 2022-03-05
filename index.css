@@ -63,6 +63,16 @@ body{
     margin-top:35px;
 }
 
+#coupon{
+    width: 570px;
+    height:350px;
+    margin-left: 400px;
+    position: absolute;
+    z-index: 100;
+    background-color: #170046;
+    margin-top: 230px;
+}
+
 @media screen {
     
 }
