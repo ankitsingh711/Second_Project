@@ -50,7 +50,7 @@
 
           <div class="container float-end my-4">
 
-            <button type="button" class="btn btn-danger float-end mx-3" style="background-color:black;outline: none;" onclick="changemode()">Dark Mode</button>
+            <button id="darkmodebutton" type="button" class="btn  float-end mx-5" onclick="changeMode()">Dark Mode</button>
             <button type="button" class="btn btn-danger float-end" style="background-color:red;">Sign In</button>
 
             <button style="width: 7rem;" type="button" class="btn btn-outline-light dropdown-toggle float-end mx-5" data-bs-toggle="dropdown" aria-expanded="false">
@@ -77,15 +77,17 @@
       <div class="container-fluid bg-black" style="height: 31rem;border-bottom: 8px solid #222;">
         <div class="container">
           <div class="row">
-            <div class="col my-5 float-start">
+            <div class="col my-5 float-start ">
               <span style="color: white;font-size: 50px;font-weight: bold;">Enjoy on your TV.</span><br><br>
               <span style="color:white;font-size: 25px;">Watch on smart TVs, PlayStation, Xbox,</span><br>
               <span style="color: white;font-size: 25px;">Chromecast, Apple TV, Blu-ray players and</span><br>
               <span style="color: white;font-size: 25px;">more.</span><br>
             </div>
             <div class="col float-end">
-              <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" class="img-fluid" data-uia="our-story-card-img">
+                <video id="myvideo" class="our-story-card-video mx-5 my-5" autoplay="" playsinline="" muted="" loop=""><source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" type="video/mp4"></video>
+                  <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" class="img-fluid" data-uia="our-story-card-img">
             </div>
+            
           </div>
         </div>
       </div>
@@ -118,13 +120,14 @@
 
       <div class="container-fluid bg-black" style="border-bottom: 8px solid #222;">
         <div class="row">
-          <div class="col my-5 mx-5">
+          <div class="col my-5">
             <span style="color: white;font-size: 50px;font-weight: bold;">Watch everywhere.</span><br>
             <span style="color: white;font-size: 23px">Stream unlimited movies and TV shows on</span><br>
             <span style="color: white;font-size: 23px;">your phone, tablet, laptop, and TV.</span>
           </div>
           <div class="col">
-            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png" class="img-fluid" alt="tv" width="500px">
+            <video id="myvideo2" class="our-story-card-video" autoplay="" playsinline="" muted="" loop=""><source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v" type="video/mp4"></video>
+            <img id="animationimage" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png" class="img-fluid" alt="tv" width="530px">
           </div>
         </div>
       </div>
@@ -237,53 +240,45 @@
 
       <!-- footer starts  -->
 
-      <!-- Footer -->
-<footer class="bg-black text-center text-white my-5" style="border-top: 8px solid #222;">
-  <!-- Grid container -->
+
+<footer id="footer" class="bg-black text-center text-white my-5" style="border-top: 8px solid #222;">
+
   <div class="container-fluid p-4">
-    <!-- Section: Social media -->
+   
     <section class="mb-4">
-      <!-- Facebook -->
+      
       <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/profile.php?id=100004977828705" role="button"
         ><i class="fab fa-facebook-f"></i
       ></a>
 
-      <!-- Twitter -->
+      
       <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/ItsAnkit5ingh" role="button"
         ><i class="fab fa-twitter"></i
       ></a>
 
-      <!-- Google -->
+      
       <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/itsankitsingh" role="button"
         ><i class="fa-brands fa-youtube"></i>
       </a>
 
-      <!-- Instagram -->
+      
       <a class="btn btn-outline-light btn-floating m-1" href="https://wwww.instagram.com/itssankitsingh" role="button"
         ><i class="fab fa-instagram"></i
       ></a>
 
-      <!-- Linkedin -->
+      
       <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/ankit-singh-422980227/" role="button"
         ><i class="fab fa-linkedin-in"></i
       ></a>
 
-      <!-- Github -->
+    
       <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/ankitsingh711" role="button"
         ><i class="fab fa-github"></i
       ></a>
     </section>
-    <!-- Section: Social media -->
 
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-md-5 col-12">
-            <!-- Email input -->
-          </div>
-          <!--Grid column-->
         </div>
-        <!--Grid row-->
+        
       </form>
     </section>
   
@@ -296,9 +291,9 @@
         Questions? Call 000-800-040-1843
       </span>
     </section>
-      <!--Grid row-->
+     
       <div class="row">
-        <!--Grid column-->
+      
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
           <ul class="list-unstyled mb-0">
             <li>
@@ -316,7 +311,7 @@
           </ul>
         </div>
 
-        <!--Grid column-->
+      
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
 
           <ul class="list-unstyled mb-0">
@@ -334,9 +329,8 @@
             </li>
           </ul>
         </div>
-        <!--Grid column-->
+        
 
-        <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
 
           <ul class="list-unstyled mb-0">
@@ -354,9 +348,9 @@
             </li>
           </ul>
         </div>
-        <!--Grid column-->
+        
 
-        <!--Grid column-->
+        
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
 
           <ul class="list-unstyled mb-0">
@@ -381,18 +375,18 @@
           </ul> <br><br>
           <span style="color: #757575;">Netflix India</span>
         </div>
-        <!--Grid column-->
+        
       </div>
-      <!--Grid row-->
+      
     </section>
-    <!-- Section: Links -->
+   
   </div>
 </div>
-  <!-- Copyright -->
+  
 </footer>
 
 </div>
-<!-- Footer -->
+
 
       
 </html>

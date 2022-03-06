@@ -5,10 +5,7 @@ body{
     overflow-x: hidden;
 }
 
-.darkmode{
-    background-color: white;
-    color: black;
-}
+
 
 #backgroundimage{
     background-image: url(https://www.linkpicture.com/q/image_327.jpg);
@@ -78,4 +75,32 @@ body{
     color: white;
     background-color: #170046;
     font-size: 23px;
+}
+
+.darkmode{
+    background-color: white;
+    color: black;
+}
+
+#darkmodebutton{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+#myvideo{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+}
+
+#myvideo2{
+    width: 330px;
+    height: 300px;
+    position: absolute;
+    margin-left:100px;
+}
+
+#animationimage{
+    z-index: 100;
 }
