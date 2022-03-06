@@ -65,14 +65,17 @@ body{
 
 #coupon{
     width: 570px;
-    height:350px;
+    height:370px;
     margin-left: 400px;
     position: absolute;
     z-index: 100;
     background-color: #170046;
     margin-top: 230px;
 }
-
-@media screen {
-    
+   
+#closebutton{
+    border: none;
+    color: white;
+    background-color: #170046;
+    font-size: 23px;
 }
