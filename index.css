@@ -1,11 +1,7 @@
 body{
-    background-color:#000;
-    margin: 0px;
-    padding: 0px;
+    background-color:black;
     overflow-x: hidden;
 }
-
-
 
 #backgroundimage{
     background-image: url(https://www.linkpicture.com/q/image_327.jpg);
@@ -52,6 +48,12 @@ body{
     margin-left: 380px;
 }
 
+#search2{
+    width: 600px;
+    height: 50px;
+    margin-left: 240px;
+}
+
 #button{
     width: 150px;
     height: 40px;
@@ -61,20 +63,21 @@ body{
 }
 
 #coupon{
-    width: 570px;
-    height:370px;
-    margin-left: 400px;
+    width: 560px;
+    height:350px;
+    margin-left: 380px;
     position: absolute;
-    z-index: 100;
-    background-color: #170046;
+    z-index: 99;
+    background-color: #f84c26;
+    opacity: 2;
     margin-top: 230px;
 }
-   
+
 #closebutton{
     border: none;
+    background-color: #f84c26;
     color: white;
-    background-color: #170046;
-    font-size: 23px;
+    font-size: 25px;
 }
 
 .darkmode{
@@ -89,18 +92,18 @@ body{
 }
 
 #myvideo{
-    width: 400px;
-    height: 300px;
     position: absolute;
 }
 
 #myvideo2{
-    width: 330px;
-    height: 300px;
+    width: 300px;
+    height: 350px;
     position: absolute;
-    margin-left:100px;
 }
 
-#animationimage{
-    z-index: 100;
+#location{
+    background-color: white;
+    color: blue;
+    visibility: hidden;
 }
+
