@@ -104,7 +104,7 @@ body{
 #location{
     background-color: white;
     color: blue;
-    display: hidden;
+    display: none;
     height: 30px;
 }
 

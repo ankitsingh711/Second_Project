@@ -11,13 +11,13 @@ function changeMode(){
     document.body.classList.toggle("darkmode")
 }
 
-var x = document.getElementById("out").innerHTML=`Latitude ${data.coords.latitude} Longitude ${data.coords.longitude}`
-var y = document.getElementById("weatherout").innerHTML= output;
+var a = document.getElementById("out")
+var b = document.getElementById("weatherout")
 
 function geolocation(){
     if(navigator.geolocation){
         navigator.geolocation.getCurrentPosition(showPosition)
-    }else{x.innerHTML="GeoLocation is not supported by this Browser.";}
+    }else{a.innerHTML="GeoLocation is not supported by this browser.";}
 }
 
 function showPosition(data){
@@ -35,13 +35,4 @@ function showPosition(data){
     })
 }
 
-function loadlocation(){
-    document.getElementById("location").style.visibility="visible"
-}
-
-function closelocation(){
-    document.getElementById("location").style.visibility="visible"
-}
-
-window.onload= loadlocation()
 

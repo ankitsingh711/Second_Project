@@ -36,6 +36,10 @@
       background-color: black;
     }
   </style>
+
+  <script>
+    window.onload= geolocation()
+  </script>
   </head>
 
 
@@ -65,9 +69,9 @@
 
                 <!-- geolocation  -->
 
-          <button class="my-5" id="location" type="button" onclick="geolocation()">Location</button>
-          <span id="out">Hi</span>
-          <span id="weatherout">Hello</span>
+          <button class="my-5" id="location" type="button" onclick="geolocation();loadlocation()"></button>
+          <span id="out"></span>
+          <span id="weatherout"></span>
 
             <button id="darkmodebutton" type="button" class="btn mx-2 float-end" onclick="changeMode()"><i class="fa-solid fa-moon"></i>Light Mode</button>
             <button type="button" class="btn btn-danger float-end" style="background-color:red;">Sign In</button>
@@ -104,10 +108,10 @@
             </div>
             <div class="col float-end">
               <div id="myvideo" class="container float-end my-5">
-                <video style="height: 195px;width: 400px;"  class="our-story-card-video mx-5 my-5" autoplay="" playsinline="" muted="" loop=""><source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" type="video/mp4"></video>
+                <video style="height: 200px;width: 410px;"  class="our-story-card-video mx-5 my-5" autoplay="" playsinline="" muted="" loop=""><source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" type="video/mp4"></video>
               </div>
-              <div id="mytv" class="container-fluid float-end my-2">
-                  <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" class="img-fluid" data-uia="our-story-card-img" >
+              <div id="mytv" class="container-fluid mx-1 my-3">
+                  <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" class="img-fluid" data-uia="our-story-card-img">
               </div>
             </div>
             
