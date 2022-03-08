@@ -1,5 +1,5 @@
 body{
-    background-color:black;
+    background-color: black;
     overflow-x: hidden;
 }
 
@@ -63,14 +63,14 @@ body{
 }
 
 #coupon{
-    width: 560px;
+    width: 650px;
     height:350px;
-    margin-left: 380px;
+    margin-left: 370px;
     position: absolute;
     z-index: 99;
     background-color: #f84c26;
     opacity: 2;
-    margin-top: 230px;
+    margin-top: 180px;
 }
 
 #closebutton{
@@ -81,7 +81,7 @@ body{
 }
 
 .darkmode{
-    background-color: white;
+    background-color: red;
     color: black;
 }
 
@@ -104,6 +104,17 @@ body{
 #location{
     background-color: white;
     color: blue;
-    visibility: hidden;
+    display: hidden;
+    height: 30px;
+}
+
+#out{
+    color: white;
+    font-size: 30px;
+}
+
+#weatherout{
+    color: white;
+    font-size: 30px;
 }
 

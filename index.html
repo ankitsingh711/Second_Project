@@ -25,12 +25,19 @@
     />
 
     <script src="https://kit.fontawesome.com/e76072a7dc.js" crossorigin="anonymous"></script>
-  </head>
-  <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="index.js"></script>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Caveat&family=Josefin+Slab&family=Merriweather:wght@300&family=PT+Sans&family=PT+Serif&family=Roboto+Serif:wght@500&family=Rowdies:wght@300&family=Source+Serif+4:ital,wght@1,400;1,500&family=Zen+Kurenaido&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Caveat&family=Josefin+Slab&family=Merriweather:wght@300&family=PT+Sans&family=PT+Serif&family=Roboto+Serif:wght@500&family=Rowdies:wght@300&family=Source+Serif+4:ital,wght@1,400;1,500&family=Zen+Kurenaido&display=swap" rel="stylesheet">
+
+  <style>
+    body{
+      background-color: black;
+    }
+  </style>
+  </head>
+
 
 <!-- my body  -->
 
@@ -39,8 +46,8 @@
           <div id="netfliximage" class="container">
             <img src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png" alt="netflix" width="170px">
           </div>
-          <span id="output"></span>
-          <span id="weatheroutput"></span>
+
+
           <div id="imagetext" class="container">
                 <span>Unlimited Movies,TV </span><br>
                 <span style="margin-left: 70px;">shows and more.</span><br>
@@ -55,10 +62,14 @@
           </form>
 
           <div class="container float-end my-4">
-             <!-- geolocation button -->
 
-             <button class="my-5" id="location" type="button" onclick="geolocation();closelocation()"></button>
-            <button id="darkmodebutton" type="button" class="btn mx-5 my-5" onclick="changeMode()">Dark Mode</button>
+                <!-- geolocation  -->
+
+          <button class="my-5" id="location" type="button" onclick="geolocation()">Location</button>
+          <span id="out">Hi</span>
+          <span id="weatherout">Hello</span>
+
+            <button id="darkmodebutton" type="button" class="btn mx-2 float-end" onclick="changeMode()"><i class="fa-solid fa-moon"></i>Light Mode</button>
             <button type="button" class="btn btn-danger float-end" style="background-color:red;">Sign In</button>
 
             <button style="width: 7rem;" type="button" class="btn btn-outline-light dropdown-toggle float-end mx-2" data-bs-toggle="dropdown" aria-expanded="false">
@@ -74,15 +85,15 @@
         <!-- offer coupon starts  -->
 
     <div id="coupon">
-      <button id="closebutton" onclick="closecoupon()">&times;</button>
-      <img src="https://www.dontpayfull.com/at/netflix.com/gallery/20-off-netflix.com_discount_deal_1.jpg" alt="coupon" width="560px">
+      <button id="closebutton" onclick="closecoupon()">&times;<span style="font-size: 20px;">Close</span></button>
+      <img src="https://www.dontpayfull.com/at/netflix.com/gallery/20-off-netflix.com_discount_deal_1.jpg" alt="coupon" width="650px">
     </div>
       </div>
 
 
       <!-- 2nd part start  -->
 
-      <div class="container-fluid bg-black" style="height: 31rem;border-bottom: 8px solid #222;">
+      <div class="container-fluid" style="height: 31rem;border-bottom: 8px solid #222;">
         <div class="container">
           <div class="row">
             <div class="col my-5 float-start ">
@@ -106,7 +117,7 @@
 
       <!-- 3rd part  -->
 
-      <div class="container-fluid bg-black" style="border-bottom: 8px solid #222;">
+      <div class="container-fluid" style="border-bottom: 8px solid #222;">
         <div class="row">
           <div class="col my-5">
           <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"  alt="stranger" width="470px">
@@ -130,7 +141,7 @@
 
       <!-- 4th part starts  -->
 
-      <div class="container-fluid bg-black" style="border-bottom: 8px solid #222;">
+      <div class="container-fluid" style="border-bottom: 8px solid #222;">
         <div class="row">
           <div class="col my-5">
             <span style="color: white;font-size: 50px;font-weight: bold;">Watch everywhere.</span><br>
@@ -150,7 +161,7 @@
 
       <!-- 5th part starts  -->
 
-      <div class="container-fluid bg-black" style="border-bottom: 8px solid #222;">
+      <div class="container-fluid" style="border-bottom: 8px solid #222;">
         <div class="row">
           <div class="col mx-5">
            <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVxdX2WnFSp49eXb1do0euaj-F8upNImjofE77XStKhf5kUHG94DPlTiGYqPeYNtiox-82NWEK0Ls3CnLe3WWClGdiJP.png?r=5cf" class="img-fluid" alt="cartoon" width="500px">
@@ -164,7 +175,7 @@
 
       <!-- 6th part starts  -->
 
-      <div class="container-fluid bg-black" style="height: 40rem;">
+      <div class="container-fluid" style="height: 40rem;">
         <div class="row text-center">
           <div class="col" style="color: white;font-size: 45px;font-weight: bold;">Frequently Asked Questions</div>
         </div>
@@ -264,7 +275,8 @@
       <!-- footer starts  -->
 
 
-<footer class="bg-black text-center" style="border-top: 8px solid #222;">
+<footer class="text-center" style="border-top: 8px solid #222;">
+
 
   <div class="container-fluid p-5">
    
@@ -386,7 +398,7 @@
             </li>
           </ul>
         </div>
-        <div class="dropdown my-5">
+        <div class="dropdown my-2">
           <button class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
             <i class="fa-solid fa-globe"></i> English
           </button>
@@ -397,11 +409,8 @@
           <span style="color: #757575;">Netflix India</span>
         </div>
       </div>
-    </section>
+      </section>
+    </div>
   </div>
-</div>
-</footer>
+  </footer>
 </html>
-<script>
-  window.onload= loadlocation()
-</script>
