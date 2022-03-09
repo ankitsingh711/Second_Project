@@ -110,11 +110,22 @@ body{
 
 #out{
     color: white;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 #weatherout{
     color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#cloud{
     font-size: 30px;
+    color: white;
+}
+
+#weatherandcloud{
+    text-align: center;
+    width: 15rem;
 }
 

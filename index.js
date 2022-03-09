@@ -11,13 +11,11 @@ function changeMode(){
     document.body.classList.toggle("darkmode")
 }
 
-var a = document.getElementById("out")
-var b = document.getElementById("weatherout")
 
 function geolocation(){
     if(navigator.geolocation){
         navigator.geolocation.getCurrentPosition(showPosition)
-    }else{a.innerHTML="GeoLocation is not supported by this browser.";}
+    }else{x.innerText="GeoLocation is not supported by this browser.";}
 }
 
 function showPosition(data){
@@ -29,10 +27,28 @@ function showPosition(data){
     .then((res) => res.json())
     .then((data) => {
         let cityName = data.city.name
-        let weather = `${data.list[0].temp.day} degree`
-        let output = `${cityName} ${weather}`
+        let weather = `${data.list[0].temp.day} Celcius`
+        let output = `${weather} ${cityName}`
         console.log(data)
+        x.innerText=output;
     })
+}
+
+function cloud(){
+    let cloud = document.getElementById("clouds");
+    cloud.innerHTML = "&#xf744;";
+}
+
+var i = 0;
+var txt = 'Lorem ipsum dummy text blabla.';
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
 }
 
 

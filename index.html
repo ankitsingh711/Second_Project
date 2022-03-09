@@ -38,10 +38,13 @@
   </style>
 
   <script>
-    window.onload= geolocation()
+    window.onload= geolocation();
   </script>
+
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
   </head>
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- my body  -->
 
@@ -69,20 +72,22 @@
 
                 <!-- geolocation  -->
 
-          <button class="my-5" id="location" type="button" onclick="geolocation();loadlocation()"></button>
-          <span id="out"></span>
-          <span id="weatherout"></span>
+          <button class="my-5" id="location" type="button" onclick="geolocation()"></button>
+          <div id="weatherandcloud" class="container">
+              <div class="fa" id="clouds"></div><span id="weatherout" class=" my-2"></span>
+          </div>
 
-            <button id="darkmodebutton" type="button" class="btn mx-2 float-end" onclick="changeMode()"><i class="fa-solid fa-moon"></i>Light Mode</button>
-            <button type="button" class="btn btn-danger float-end" style="background-color:red;">Sign In</button>
+            <button type="button" class="btn btn-danger float-end  my-2 mx-1" style="background-color:red;">Sign In</button>
 
-            <button style="width: 7rem;" type="button" class="btn btn-outline-light dropdown-toggle float-end mx-2" data-bs-toggle="dropdown" aria-expanded="false">
+            <button style="width: 7rem;" type="button" class="btn btn-outline-light dropdown-toggle float-end mx-1 my-2" data-bs-toggle="dropdown" aria-expanded="false">
               <i class="fa-solid fa-globe"></i>English
             </button>
             <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">English</a></li>
             <li><a class="dropdown-item" href="#">Hindi</a></li>
             </ul>
+
+            <button id="darkmodebutton" type="button" class="btn my-2 mx-1 float-end" onclick="changeMode()"><i class="fa-solid fa-moon"></i>Light Mode</button>
           
           </div>
           
@@ -417,4 +422,7 @@
     </div>
   </div>
   </footer>
+  <script>
+    var x = document.getElementById("weatherout")
+  </script>
 </html>
