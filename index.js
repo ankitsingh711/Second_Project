@@ -39,16 +39,16 @@ function cloud(){
     cloud.innerHTML = "&#xf744;";
 }
 
-var i = 0;
-var txt = 'Lorem ipsum dummy text blabla.';
-var speed = 50;
-
-function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("demo").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
+const validateEmail = () => {
+let email = document.getElementById("email").value;
+let Eout = document.getElementById("eout");
+if(email.trim().length == 0) {
+    Eout.innerHTML = "Please Enter Email Address"
+}else{
+    Eout.value = ""
 }
+}
+
+
 
 

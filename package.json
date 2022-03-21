@@ -1,0 +1,30 @@
+{
+  "name": "netflix",
+  "version": "1.0.0",
+  "description": "this is a clone of netflix website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankitsingh711/Second_Project.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "netflix",
+    "website",
+    "or",
+    "app"
+  ],
+  "author": "ankit singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankitsingh711/Second_Project/issues"
+  },
+  "homepage": "https://github.com/ankitsingh711/Second_Project#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
