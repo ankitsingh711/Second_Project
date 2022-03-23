@@ -1,0 +1,122 @@
+[
+    {
+    "Name": "Stranger Things",
+    "WebSeries_ID": 1,
+    "Rated": "18+",
+    "Season": 1,
+    "Episodes": "10",
+    "Category": "Adventure",
+    "Language": "English,Hindi",
+    "Movie_Type": "Hollywood",
+    "Movie Thumbnail": "https://m.media-amazon.com/images/M/MV5BN2ZmYjg1YmItNWQ4OC00YWM0LWE0ZDktYThjOTZiZjhhN2Q2XkEyXkFqcGdeQXVyNjgxNTQ3Mjk@._V1_.jpg"
+},
+
+{
+    "Name": "Money Heist",
+    "WebSeries_ID": 2,
+    "Rated": "18+",
+    "Season": 1,
+    "Episodes": "12",
+    "Category": "Drama",
+    "Language": "English,Hindi",
+    "Movie_Type": "Hollywood",
+    "Movie Thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ-0FmSAKnC8KyPmAvYIjmzFtzweYnG7cD4w&usqp=CAU"
+},
+
+{
+    "Name": "All of us are dead",
+    "WebSeries_ID": 3,
+    "Rated": "18+",
+    "Season": 1,
+    "Episodes": "10",
+    "Category": "Horror",
+    "Language": "English,Hindi,Korean",
+    "Movie_Type": "Korean",
+    "Movie Thumbnail": "https://upload.wikimedia.org/wikipedia/en/thumb/2/24/All_of_Us_Are_Dead.jpeg/250px-All_of_Us_Are_Dead.jpeg"
+},
+
+{
+    "Name": "Sabrina",
+    "WebSeries_ID": 4,
+    "Rated": "18+",
+    "Season": 1,
+    "Episodes": "8",
+    "Category": "Adventure",
+    "Language": "English,Hindi",
+    "Movie_Type": "Hollywood",
+    "Movie Thumbnail": "https://images-na.ssl-images-amazon.com/images/I/81+7ejIbyKL.jpg"
+},
+
+{
+    "Name": "Titans",
+    "WebSeries_ID": 5,
+    "Rated": "18+",
+    "Season": 1,
+    "Episodes": "12",
+    "Category": "Adventure",
+    "Language": "English,Hindi",
+    "Movie_Type": "Hollywood",
+    "Movie Thumbnail": "https://m.media-amazon.com/images/I/51Mb2ITJtKL.jpg"
+},
+
+{
+    "Name": "Squid Game",
+    "WebSeries_ID": 6,
+    "Rated": "18+",
+    "Season": 1,
+    "Episodes": "15",
+    "Category": "Adventure",
+    "Language": "English,Hindi",
+    "Movie_Type": "Hollywood",
+    "Movie Thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOH2FYJfel6W6jYOdigMyVM0mgdprI049jjQ&usqp=CAU"
+},
+
+{
+    "Name": "Army of the Dead",
+    "WebSeries_ID": 7,
+    "Rated": "18+",
+    "Season": 1,
+    "Episodes": "11",
+    "Category": "Horror",
+    "Language": "English,Hindi",
+    "Movie_Type": "Hollywood",
+    "Movie Thumbnail": "https://english.cdn.zeenews.com/sites/default/files/2021/05/23/938284-army-of-the-dead.png"
+},
+
+{
+    "Name": "Lock and Key",
+    "WebSeries_ID": 8 ,
+    "Rated": "18+",
+    "Season": 1,
+    "Episodes": "10",
+    "Category": "Adventure",
+    "Language": "English,Hindi",
+    "Movie_Type": "Hollywood",
+    "Movie Thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiZ66QnVe6BiJ7RDzAjw-2p3EKAbGvLoGjow&usqp=CAU"
+},
+
+{
+    "Name": "The Witcher",
+    "WebSeries_ID": 9,
+    "Rated": "18+",
+    "Season": 1,
+    "Episodes": "10",
+    "Category": "Horror",
+    "Language": "English,Hindi",
+    "Movie_Type": "Hollywood",
+    "Movie Thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkLczLGDacsOW4hPmJPU0Fbt-U1idHb8XDrQ&usqp=CAU"
+},
+
+{
+    "Name": "Shadow of the Bone",
+    "WebSeries_ID": 10,
+    "Rated": "18+",
+    "Season": 1,
+    "Episodes": "9",
+    "Category": "Adventure",
+    "Language": "English,Hindi",
+    "Movie_Type": "Hollywood",
+    "Movie Thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFwKSg255lxis24sUC8ErsRY1yQ7prwZNIvQ&usqp=CAU"
+}
+
+]

@@ -1,0 +1,33 @@
+[
+    {
+    "Name": "Venom",
+    "Movie_ID": 1,
+    "Rated": "18+",
+    "Duration": "1 hr and 24 minutes",
+    "Category": "Adventure",
+    "Language": "English,Hindi",
+    "Movie_Type": "Hollywood"
+},
+
+{
+    "Name": "Zombieland DoubleTap",
+    "Movie_ID": 2,
+    "Rated": "18+",
+    "Duration": "2 hrs and 00 minutes",
+    "Category": "Horror",
+    "Language": "English,Hindi,Korean",
+    "Movie_Type": "Hollywood"
+},
+
+{
+    "Name": "Article 15",
+    "Movie_ID": 3,
+    "Rated": "16+",
+    "Duration": "2 hrs and 24 minutes",
+    "Category": "Crimes",
+    "Language": "English,Hindi",
+    "Movie_Type": "Bollywood"
+}
+
+]
+

@@ -1,0 +1,23 @@
+body{
+    background-color: #141414;
+    overflow-x: hidden;
+}
+
+#photo{
+    height: 600px;
+    width: 100%;
+    background-image: url();
+}
+
+#navBar{
+    background-color: none;
+    color: white;
+}
+
+#searchButton{
+    color: red;
+}
+
+#navButton:hover{
+    opacity: 0.7;
+}

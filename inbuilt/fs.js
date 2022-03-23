@@ -7,5 +7,5 @@ fs.writeFile('Mycode.txt','My code for Node js', (err) =>{
 
 fs.appendFile('MyText.txt','My code was added.', (err) =>{
     if(err) throw err;
-    console.log('One File Created')
+    console.log('The File was Created')
 });

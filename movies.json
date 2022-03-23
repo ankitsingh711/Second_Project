@@ -1,0 +1,112 @@
+[
+    {
+    "Name": "Venom",
+    "Movie_ID": 1,
+    "Rated": "18+",
+    "Duration": "1 hr and 24 minutes",
+    "Category": "Adventure",
+    "Language": "English,Hindi",
+    "Movie_Type": "Hollywood",
+    "Movie Thumbnail": "https://m.media-amazon.com/images/M/MV5BNzAwNzUzNjY4MV5BMl5BanBnXkFtZTgwMTQ5MzM0NjM@._V1_FMjpg_UX1000_.jpg"
+},
+
+{
+    "Name": "Zombieland DoubleTap",
+    "Movie_ID": 2,
+    "Rated": "18+",
+    "Duration": "2 hrs and 00 minutes",
+    "Category": "Horror",
+    "Language": "English,Hindi,Korean",
+    "Movie_Type": "Hollywood",
+    "Movie Thumbnail": "https://m.media-amazon.com/images/M/MV5BMTkyNThmMTEtOTQxMy00ZTJhLTlhMTktYjc2YTUxMThjNDQxXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg"
+},
+
+{
+    "Name": "Article 15",
+    "Movie_ID": 3,
+    "Rated": "16+",
+    "Duration": "2 hrs and 24 minutes",
+    "Category": "Crimes",
+    "Language": "English,Hindi",
+    "Movie_Type": "Bollywood",
+    "Movie Thumbnail": "https://m.media-amazon.com/images/M/MV5BZTI2NTFiMDMtZjQxNS00YjBkLWFhNWMtOTIyMzE5Yjc0ZTZiXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg"
+},
+
+{
+    "Name": "Alive",
+    "Movie_ID": 4,
+    "Rated": "18+",
+    "Duration": "2 hrs and 02 minutes",
+    "Category": "Horror",
+    "Language": "English,Hindi,Korean",
+    "Movie_Type": "Hollywood",
+    "Movie Thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/69/83_film_poster.jpg"
+}, 
+
+{
+    "Name": "83",
+    "Movie_ID": 5,
+    "Rated": "13+",
+    "Duration": "2 hrs and 04 minutes",
+    "Category": "Biography",
+    "Language": "English,Hindi,Tamil,Telugu",
+    "Movie_Type": "Bollywood",
+    "Movie Thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/69/83_film_poster.jpg"
+},
+
+{
+    "Name": "Hell Boy",
+    "Movie_ID": 6,
+    "Rated": "18+",
+    "Duration": "1 hrs and 48 minutes",
+    "Category": "Adventure",
+    "Language": "English,Hindi,Korean",
+    "Movie_Type": "Hollywood",
+    "Movie Thumbnail": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fc/Hellboy_%282019%29_theatrical_poster.png/220px-Hellboy_%282019%29_theatrical_poster.png"
+},
+
+{
+    "Name": "Okja",
+    "Movie_ID": 7,
+    "Rated": "18+",
+    "Duration": "2 hrs and 14 minutes",
+    "Category": "Adventure",
+    "Language": "English,Hindi,Korean",
+    "Movie_Type": "Hollywood",
+    "Movie Thumbnail": "https://m.media-amazon.com/images/M/MV5BMjQxMTcxNDgxN15BMl5BanBnXkFtZTgwOTczNTIzMjI@._V1_.jpg"
+},
+
+{
+    "Name": "Red Notice",
+    "Movie_ID": 8,
+    "Rated": "15+",
+    "Duration": "2 hrs and 44 minutes",
+    "Category": "Sci-Fi",
+    "Language": "English,Hindi",
+    "Movie_Type": "Hollywood",
+    "Movie Thumbnail": "https://img.republicworld.com/republic-prod/stories/promolarge/xhdpi/wqvp2tkmylqq96tz_1636857670.jpeg"
+},
+
+{
+    "Name": "Avengers",
+    "Movie_ID": 9,
+    "Rated": "18+",
+    "Duration": "2 hrs and 49 minutes",
+    "Category": "Sci-Fi",
+    "Language": "English,Hindi",
+    "Movie_Type": "Hollywood",
+    "Movie Thumbnail": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_FMjpg_UX1000_.jpg"
+},
+
+{
+    "Name": "The Conjuring",
+    "Movie_ID": 10,
+    "Rated": "18+",
+    "Duration": "3 hrs and 00 minutes",
+    "Category": "Horror",
+    "Language": "English,Hindi",
+    "Movie_Type": "Hollywood",
+    "Movie Thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGJSHHhJTpML_hi9uCOLjcCFbCL48H9JxT9Q&usqp=CAU"
+}
+
+]

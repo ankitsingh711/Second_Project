@@ -1,0 +1,41 @@
+[
+    {
+        "Premium Type": "Mobile",
+        "Price": "INR.149",
+        "Number of screens you can watch on at the same time": 1,
+        "Unlimited movies, TV shows and mobile games": "True",
+        "Watch on your laptop and TV": "False",
+        "HD available": "False",
+        "Ultra HD available": "False"
+    },
+
+    {
+        "Premium Type": "Basic",
+        "Price": "INR.199",
+        "Number of screens you can watch on at the same time": 1,
+        "Unlimited movies, TV shows and mobile games": "True",
+        "Watch on your laptop and TV": "True",
+        "HD available": "False",
+        "Ultra HD available": "False"
+    },
+
+    {
+        "Premium Type": "Standard",
+        "Price": "INR.499",
+        "Number of screens you can watch on at the same time": 2,
+        "Unlimited movies, TV shows and mobile games": "True",
+        "Watch on your laptop and TV": "True",
+        "HD available": "True",
+        "Ultra HD available": "False"
+    },
+
+    {
+        "Premium Type": "Premium",
+        "Price": "INR.649",
+        "Number of screens you can watch on at the same time": 4,
+        "Unlimited movies, TV shows and mobile games": "True",
+        "Watch on your laptop and TV": "True",
+        "HD available": "True",
+        "Ultra HD available": "True"
+    }
+]
