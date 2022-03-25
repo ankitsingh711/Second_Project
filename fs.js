@@ -1,9 +1,17 @@
 var http = require('http');
+var url = require('url');
 var fs = require('fs');
-http.createServer(function(req,res) {
-    fs.readFile('home.html', function(err, data){
-    res.writeHead(200, {'Content-Type':'text/html'});
-    res.writeHead(data);
+
+http.createServer(function (req, res) {
+var q = url.parse(req.url, true);
+var home = "." + q.pathname;
+fs.readFile(home, function(err, data) {
+    if (err) {
+    res.writeHead(404, {'Content-Type': 'text/html'});
+    return res.end("404 Not Found");
+    } 
+    res.writeHead(200, {'Content-Type': 'text/html'});
+    res.write(data);
     return res.end();
-    });
-}).listen(7600);
+});
+}).listen(8080);
